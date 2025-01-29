@@ -1,0 +1,35 @@
+[2025-01-23 08:11:43] Tentativa 1 falhou para o processo 48610.226052/2021-95. Captcha incorreto.
+[2025-01-23 08:11:54] Tentativa 2 falhou para o processo 48610.226052/2021-95. Captcha incorreto.
+[2025-01-23 08:12:07] Captcha resolvido com sucesso para o processo 48610.226052/2021-95
+[2025-01-23 08:12:18] Tentativa 1 falhou para o processo 48610.001372/2015-96. Captcha incorreto.
+[2025-01-23 08:12:40] Tentativa 2 falhou para o processo 48610.001372/2015-96. Captcha incorreto.
+[2025-01-23 08:12:51] Tentativa 3 falhou para o processo 48610.001372/2015-96. Captcha incorreto.
+[2025-01-23 08:13:02] Tentativa 4 falhou para o processo 48610.001372/2015-96. Captcha incorreto.
+[2025-01-23 08:13:15] Captcha resolvido com sucesso para o processo 48610.001372/2015-96
+[2025-01-23 08:13:25] Erro geral encontrado: 'charmap' codec can't encode character '\u2010' in position 74: character maps to <undefined>
+[2025-01-28 16:20:25] Captcha resolvido com sucesso pro processo 48610.226052/2021-95
+[2025-01-28 16:20:32] Deu ruim na tentativa 1 pro processo 48610.001372/2015-96. Erro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=132.0.2957.115)
+Stacktrace:
+	(No symbol) [0x00007FF629516B05]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF62983F464+1437348]
+	sqlite3_dbdata_init [0x00007FF6298E2D96+643174]
+	(No symbol) [0x00007FF6293D7657]
+	(No symbol) [0x00007FF629461CE5]
+	(No symbol) [0x00007FF62947670A]
+	(No symbol) [0x00007FF62945BE03]
+	(No symbol) [0x00007FF629432984]
+	(No symbol) [0x00007FF629431E30]
+	(No symbol) [0x00007FF629432571]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6297EBAF4+1094964]
+	(No symbol) [0x00007FF6295532B8]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6297EAF33+1091955]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6297EAA99+1090777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6295F0CA1+461569]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6295EC9C4+444452]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6295ECB09+444777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6295E2186+401382]
+	BaseThreadInitThunk [0x00007FFE74C4E8D7+23]
+	RtlUserThreadStart [0x00007FFE76E9FBCC+44]
+
